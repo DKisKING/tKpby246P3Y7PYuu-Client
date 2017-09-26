@@ -254,6 +254,48 @@ switch (i) {
 			itemDef.description = "An ancient warhammer once used by Statius."
 					.getBytes();
 			break;
+		
+		case 20998:
+			itemDef.name = "Twisted bow";
+			itemDef.itemActions = new String[5];
+			itemDef.itemActions[1] = "Wear";
+			itemDef.itemActions[4] = "Drop";
+			itemDef.modelID = 32799;		
+			itemDef.modelZoom = 2000;
+			itemDef.modelRotationY = 720;
+			itemDef.modelRotationX = 1500;
+			itemDef.modelOffset1 = 3;
+			itemDef.modelOffset2 = 1;
+			itemDef.groundActions = new String[] { null, null, "Take", null, null };
+			itemDef.anInt204 = 0;
+			itemDef.aByte205 = -12;
+			itemDef.aByte154 = 0;
+			itemDef.anInt165 = 32674;
+			itemDef.anInt200 = 32674;
+			itemDef.description = "A mystical bow carved from the twisted remains of the Great Olm."
+					.getBytes();
+			break;
+		
+		case 20340:
+			itemDef.name = "Kodai Wand";
+			itemDef.itemActions = new String[5];
+			itemDef.itemActions[1] = "Wear";
+			itemDef.itemActions[4] = "Drop";
+			itemDef.modelID = 32799;		
+			itemDef.modelZoom = 1417;
+			itemDef.modelRotationY = 552;
+			itemDef.modelRotationX = 1006;
+			itemDef.modelOffset2 = 1;
+			itemDef.groundActions = new String[] { null, null, "Take", null, null };
+			itemDef.anInt165 = 32674;
+			itemDef.anInt204 = 0;
+			itemDef.aByte205 = -12;
+			itemDef.aByte154 = 0;
+			itemDef.anInt165 = 32699;
+			itemDef.anInt200 = 32699;
+			itemDef.description = "Perm needs to change this."
+					.getBytes();
+			break;
 			  
 		   case 5016:
                itemDef.name = "Divine spirit shield";
