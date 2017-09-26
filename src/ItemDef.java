@@ -292,7 +292,7 @@ switch (i) {
 			itemDef.aByte154 = 0;
 			itemDef.anInt165 = 32699;
 			itemDef.anInt200 = 32699;
-			itemDef.description = "Crafted from the magical soul of Olm."
+			itemDef.description = "A wand of an ancient Kodai mage."
 					.getBytes();
 			break;
 		
